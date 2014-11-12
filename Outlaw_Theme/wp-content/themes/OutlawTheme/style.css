@@ -1,0 +1,167 @@
+/*
+Theme Name: Outlaw Swing
+Theme URI: http://outlaw-swing.com
+Description: Custom Theme for Outlaw Swing
+Author: Wyoming Telford
+Author URI: http://wyomingtelford.com
+Version: 1.00
+*/
+
+/* reset */
+*	{
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* main */
+body {
+	background: #AF2F0F;
+	background-image:url(design_instruct_wood_grain_texture_04.jpg);
+	background-repeat:no-repeat;
+	font-color: #3B261C;
+	font-family: "Garamond"
+	}
+h1,h2,h3 {
+	font-weight: bold;
+	}
+h1 {
+	font-size: 2em;
+	font-weight: 400;
+	 font-style: normal;
+	 font-family: "Diplomata SC";
+	}
+h2 {
+	font-size: 1.2em;
+	 font-weight: 400;
+	 font-style: normal;
+	 font-family: "Diplomata SC";
+	 
+	}
+h3 {
+	font-size: 1.25em;
+	font-family: "IM Fell French Canon SC";
+	 font-weight: 500;
+	 font-style: normal;
+	 color: #AF2F0F;
+	}
+p {
+	font-family: "Rockwell";
+	 font-style: normal;
+	 color: #4c3e36;
+	}
+a:link {
+	text-decoration: none;
+	color: #AF2F0F;
+	}
+a:hover {
+	color: #CE9260;
+	padding: 4px;
+	text-decoration:underline;
+	}
+a:visited {
+	color: #AF2F0F;
+	}
+#outerWrapper {
+	margin: 0 auto;
+	width: 940px;
+	padding: 10px;
+	background: #FBF6E4;
+	}
+header {
+	
+	margin-bottom: 20px;
+	}
+header h1 {
+	font-size: 2.5em;
+	text-align: center;
+	}
+header h1.headStyle {
+	text-align: center;
+	
+	
+	}
+header h1 a:link {
+	color: #000;
+	}
+header h1 a:visited {
+	color: #000;
+	}
+nav.mainMenu {
+	padding: 5px;
+	font-size: 1.2em;
+	 font-weight: 400;
+	 font-style: normal;
+	 font-family: "IM Fell French Canon SC";
+	 text-align: right;
+	 
+	 	
+	}
+nav.mainMenu ul li {
+	display: inline;
+	list-style: none;
+	margin-right: 20px;
+	
+	}
+#contentWrap {
+	width: 100%;
+	overflow: auto;
+	}
+#content {
+	width: 670px;
+	float: right;
+	margin-right: 20px;
+	}
+
+#content article, .widget-area aside, form#commentform, h2#archiveTitle {
+	margin-bottom: 20px;
+	}
+
+div.entry, div.entry p {
+	margin: 10px 0;
+	}
+.widget {
+	margin-left:10px;
+	}
+.widget-area {
+	width: 220px;	
+	}
+input#s {
+	width: 140px;
+	font-size: 12px;
+	font-family: "Sorts Mill Goudy"
+	}
+footer {
+	border-top: 2px #3B261C solid;
+	font-size: .86em;
+	text-align: center;
+	padding: 10px;
+	}
+.page #content {
+	width: 940px;
+	float: none;
+	}
+.description {
+	text-align: center;
+	padding: 2px;
+	margin-bottom: 10px;
+	border-bottom: 2px #3B261C solid;
+	}
+.smLogo {
+	padding: 3px;
+	margin-top: 15px;
+	margin-bottom: -75px;
+	margin-right: 690px;
+	}
+blockquote {
+border-left:5px solid #4c3e36;
+margin:15px 30px 0 10px;
+padding-left:20px;
+}
+.hentry .entry p {
+margin-bottom:4px;
+}
